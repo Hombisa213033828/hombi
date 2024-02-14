@@ -23,7 +23,8 @@
 
 .my-image {
     max-width: 80%; 
-    height: auto; 
+    height: auto;
+    border-radius: 50px; 
 }
   
 .home-icons {
