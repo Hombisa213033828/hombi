@@ -1,0 +1,25 @@
+
+.navbar-header {
+        margin: 0;
+        align-items: center;
+        background-color: rgba(89, 23, 100, 0.62);
+        height: 100vh;
+}
+
+.nav-container ul{
+    list-style: none;
+    display: flex;
+    margin-left: 700px;
+    text-decoration: none;
+    font-weight: bold; /* Set font weight as needed */
+    font-size: 16px;
+   
+}
+
+.nav-container ul li{
+    padding: 10px;
+    font-family: "Inika", Helvetica;
+    text-decoration: none;
+    color: black;
+    margin-top: 50px;
+}
