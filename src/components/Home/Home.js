@@ -13,9 +13,9 @@ export default function Home() {
             </div>
 
             <div className='home-icons'>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-square-facebook"></i>
-            <i class="fa-brands fa-square-github"></i>
+            <i  id="linkedin" class="fa-brands fa-linkedin"></i>
+            <i id="facebook" class="fa-brands fa-square-facebook"></i>
+            <i id="github" class="fa-brands fa-square-github"></i>
             </div>
 
             <div className='home-resume-button'>
