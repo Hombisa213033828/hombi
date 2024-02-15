@@ -1,0 +1,48 @@
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .card-img-top {
+        max-height: 200px;
+        object-fit: cover;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        color: #fff;
+    }
+
+    .mt-3 {
+        margin-top: 3rem;
+    }
+
+    .mt-4 {
+        margin-top: 4rem;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .portfolioContent {
+        /* Add additional styles for portfolio content */
+    }
+
+

@@ -11,8 +11,8 @@ function Education(){
         <div className="card__content">
           <p className="card__title">Walter Sisulu</p>
           {/* <p classNameName="card__title">Walter Sisulu</p> */}
-          <p> Enrolled: 2013/01</p>
-          <p> Completed: 2016/12</p>
+          <p> Year Enrolled: 2013/01</p>
+          <p> Year Completed: 2016/12</p>
           <p> Course: N.Diploma in Business Analysis</p>
           </div>
       </div>
@@ -22,8 +22,8 @@ function Education(){
         <div className="card__content">
           <p className="card__title">Cape Peninsula</p>
           {/* <p classNameName="card__title">Cape Peninsula</p> */}
-          <p> Enrolled: 2019/01</p>
-          <p> Completed: 2019/12</p>
+          <p> Year Enrolled: 2019/01</p>
+          <p> year Completed: 2019/12</p>
           <p> Course: B-Tech Information and Technology Management </p>
           </div>
       </div>

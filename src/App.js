@@ -2,8 +2,8 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
-// import Journey from './components/Journey/Journey';
 import Education from './components/Education/Education';
+// import Experience from './components/Experience/experience';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Navbar />
       {/* <Home /> */}
       <Education/>
+      {/* <Experience/> */}
     </div>
   );
 }
