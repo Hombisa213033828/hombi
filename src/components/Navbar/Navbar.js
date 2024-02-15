@@ -8,8 +8,9 @@ export default function Navbar() {
         <ul>
             <li>HOME</li>
             <li>ABOUT ME</li>
-            <li>JOURNEY</li>
-            <li>PROJECTS</li>
+            <li>EDUCATTION</li>
+            <li>EXPERIENCE</li>
+            <li>PORPFOLIO</li>
             <li>CONTACTS</li>
         </ul>
         </div>

@@ -1,15 +1,16 @@
 import React from 'react';
-import'./Journey.css';
+import'./Education.css';
 
-function Journey(){
+function Education(){
   return(
     <div className="journey">
+      {/* <h2>EDUCATTION</h2> */}
       
     <div className="card">
-        <img src="Wsu2.png" height={"50"}/>
+        <img src="Wsu2.png" height={"100"}/>
         <div className="card__content">
           <p className="card__title">Walter Sisulu</p>
-          <p classNameName="card__title">Walter Sisulu</p>
+          {/* <p classNameName="card__title">Walter Sisulu</p> */}
           <p> Enrolled: 2013/01</p>
           <p> Completed: 2016/12</p>
           <p> Course: N.Diploma in Business Analysis</p>
@@ -17,19 +18,19 @@ function Journey(){
       </div>
 
       <div className="card">
-        <img src="cput.png" height={"80"}/>
+        <img src="cput.png" height={"100"}/>
         <div className="card__content">
           <p className="card__title">Cape Peninsula</p>
-          <p classNameName="card__title">Walter Sisulu</p>
-          <p> Enrolled: 2013/01</p>
-          <p> Completed: 2016/12</p>
-          <p> Course: N.Diploma in Business Analysis</p>
+          {/* <p classNameName="card__title">Cape Peninsula</p> */}
+          <p> Enrolled: 2019/01</p>
+          <p> Completed: 2019/12</p>
+          <p> Course: B-Tech Information and Technology Management </p>
           </div>
       </div>
     </div>
   )
 }
-export default Journey
+export default Education
 
 
 // <div classNameName="card__content">
