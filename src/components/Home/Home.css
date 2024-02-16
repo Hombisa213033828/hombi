@@ -17,14 +17,14 @@
     margin-left: 70px;
     height: 700px;
     width: 900px;
-    background-image: linear-gradient(to bottom, rgba(18, 11, 38, 0.78), rgba(18, 11, 38, 0.78), rgba(18, 11, 38, 0.78), rgba(193, 188, 207, 0.78));
-    border-radius: 50px;
+    background-image: linear-gradient(to bottom, rgba(35, 11, 38, 0.959), rgba(18, 11, 38, 0.78), rgba(35, 11, 38, 0.959), rgba(193, 188, 207, 0.78),rgba(35, 11, 38, 0.959));
+    /* border-radius: 50px; */
 }
 
 .my-image {
     max-width: 80%; 
     height: auto;
-    border-radius: 50px; 
+    /* border-radius: 0px;  */
 }
   
 .home-icons {

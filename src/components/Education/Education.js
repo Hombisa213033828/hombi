@@ -15,8 +15,8 @@ function Education(){
         <img src="Wsu2.png" height={"100"}/>
         <div className="card__content">
           <p className="card__title">Walter Sisulu</p>
-         
-          <p> Year Completed: 2016/12</p>
+          <p> Year Completed: 2013/01</p>
+          <p> year Completed: 2016/12</p>
           <p> Course: N.Diploma in Business Analysis</p>
           </div>
          </div>

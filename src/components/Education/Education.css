@@ -1,13 +1,14 @@
 .experience{
   column-gap: 4rem;
   height: 100vh;
-  background-color:  rgba(35, 11, 38, 0.959);
+  background-image: linear-gradient(to bottom, rgba(35, 11, 38, 0.959), rgba(78, 2, 88, 0.78), rgba(63, 16, 70, 0.959), rgba(193, 188, 207, 0.78),rgba(35, 11, 38, 0.959));
+  margin-bottom: 50rem;
 }
  .card {
   position: relative;
   width: 500px;
   height: 200px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -140,7 +141,7 @@
  }
  
  .card-img {
-  background-color: #ffcaa6;
+  /* background-color: #ffcaa6; */
   height: 40%;
   width: 100%;
   border-radius: .5rem;
@@ -160,7 +161,7 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 10px;
-  border-top: 1px solid #c71d1d;
+  border-top: 1px solid #29012e;
  }
  
  /*Text*/
@@ -178,7 +179,7 @@
  
  .card-img:hover {
   transform: translateY(-25%);
-  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(48, 1, 53, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
  }
  
 
