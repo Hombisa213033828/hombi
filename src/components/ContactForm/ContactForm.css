@@ -1,8 +1,14 @@
 /* styles.css */
+.contact-form-page {
+  background-color: #a30d53;
+  height: 100vh;
+}
 
 .contact-form-container {
     max-width: 600px;
+    
     margin: 0 auto;
+   
   }
   
   .contact-form {

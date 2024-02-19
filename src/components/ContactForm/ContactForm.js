@@ -2,11 +2,12 @@ import React from 'react';
 import'./ContactForm.css';
 
 
-function Contact(){
+function ContactForm(){
   return (
-          <div className="contact-form-container">
+          <div className="contact-form-page">
+            <div className="contact-form-container">
             <h1>Contact Form</h1>
-            <form onSubmit={handleSubmit} className="contact-form">
+            <form className="contact-form">
               <div className="form-group">
                 <label>First Name</label>
                 <input
@@ -16,13 +17,13 @@ function Contact(){
                   className="form-control"
                   id="first_name"
                   name="first_name"
-                  value={formData.first_name}
-                  onChange={handleChange}
+                 
                 />
               </div>
               {/* Repeat similar blocks for other form fields */}
               <button type="submit" className="btn btn-primary">Post</button>
             </form>
+            </div>
           </div>
       );
  

@@ -1,47 +1,55 @@
 import React from 'react';
-import'./Education.css';
+import './Portfolio.css';
+import TutorImg from './images/ci.jpg';
+import GadgetImg from './images/gb.jpg';
 
-function Portfolio(){
-    return(
-        <div class="container mt-3">
-        <h1 class="text-center">Portfolio</h1>
-        <div class="row">
-            <div class="col-lg-4 mt-4">
-                <div class="card">
-                    <img class="card-img-top" src="images/ci.jpg" alt="Card image" style="width:100%" />
-                    <div class="card-body">
-                        <div class="text-center">
-                            <a href="#" class="btn btn-success">Creative Tutors - Website (creativetutorials.netlify.app)https://creativetutorials.netlify.app/</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 mt-4">
-                <div class="card portfolioContent">
-                    <img class="card-img-top" src="images/gb.jpg" alt="Card image" style="width:100%"/>
-                        <div class="text-center">
-                            <a href="#" class="btn btn-success">
-                                https://gadget-borrow-website.netlify.app/</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 mt-4">
-                <div class="card portfolioContent">
-                    <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%" />
-                    <div class="card-body">
-                        <div class="text-center">
-                            <a href="#" class="btn btn-success">https://hombisa.netlify.app</a>
-                        </div>
-                    </div>
-                </div>
-            </div> 
+export default function Portfolio() {
+  return (
+    <div className='portfolio-page'>
+      <h3 id='portfolio-title'>Portfolio</h3>
+      <div className='portfolio-container'>
+        <div className='left-box'>
+          <a href='https://creativetutorials.netlify.app/'>
+            <img src={TutorImg} id='' alt='projects'/>
+            <h3>Link to project</h3>
+          </a>
         </div>
-   
-
-    )
+        <div className='right-box'>
+          <a href='https://gadget-borrow-website.netlify.app/'>
+            <img src={GadgetImg} id='' alt='projects'/>
+            <h3>Link to project</h3>
+          </a>
+        </div>
+      </div>
+      <h3 id='skills-title'>Portfolio</h3>
+      <div className='skills'>
+        <div className='skill'>
+          <h2>Skill 1</h2>
+          <div className='progress'>
+            <div className='progress-bar' style={{ width: '70%' }}>70%</div>
+          </div>
+        </div>
+        <div className='skill'>
+          <h2>Skill 2</h2>
+          <div className='progress'>
+            <div className='progress-bar' style={{ width: '50%' }}>50%</div>
+          </div>
+        </div>
+      </div>
+      <div className='skills-sec'>
+        <div className='skill'>
+          <h2>Skill 1</h2>
+          <div className='progress'>
+            <div className='progress-bar' style={{ width: '70%' }}>70%</div>
+          </div>
+        </div>
+        <div className='skill'>
+          <h2>Skill 2</h2>
+          <div className='progress'>
+            <div className='progress-bar' style={{ width: '50%' }}>50%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
-
-export default Portfolio;
