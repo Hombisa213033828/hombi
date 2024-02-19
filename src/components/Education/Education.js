@@ -49,8 +49,8 @@ function Education(){
                   <img src={SalesPic} alt='Sales force picture' id='sale-pic' />
                 </div>
                 <div class="card-info">
-                <p class="text-title">Sales Force </p>
-                <p class="text-body">Product description and details</p>
+                <p class="text-title">Saleforce </p>
+                <p class="text-body">Admin, BA, Servicde cloud</p>
                 </div>
                 <div class="card-footer">
                 
@@ -68,13 +68,13 @@ function Education(){
                   <img src={SalesPic} alt='Sales force picture' id='sale-pic' />
                 </div>
                 <div class="card-info">
-                <p class="text-title">Sales Force </p>
-                <p class="text-body">Product description and details</p>
+                <p class="text-title">Mulesoft</p>
+                <p class="text-body">Mulesoft</p>
                 </div>
                 <div class="card-footer">
                 
                 <div class="card-button">
-                  <button>View Certificates</button>
+                  <button><a href=''></a>View Certificates</button>
                  </div>
                 </div>
             </div>
@@ -87,8 +87,8 @@ function Education(){
                   <img src={SalesPic} alt='Sales force picture' id='sale-pic' />
                 </div>
                 <div class="card-info">
-                <p class="text-title">Sales Force </p>
-                <p class="text-body">Product description and details</p>
+                <p class="text-title">Academics</p>
+                <p class="text-body">Diploma, B-Tech</p>
                 </div>
                 <div class="card-footer">
                 

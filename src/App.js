@@ -3,6 +3,10 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import Education from './components/Education/Education';
+// import Portfolio from './components/Portfolio/Portfolio';
+// import experiencee from './components/experincee/experincee';
+
+
 
 
 function App() {
@@ -11,6 +15,8 @@ function App() {
       <Navbar />
       <Home />
       <Education/>
+      {/* <Portfolio/> */}
+      <experiencee/>
     </div>
   );
 }
