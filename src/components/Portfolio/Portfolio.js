@@ -21,16 +21,16 @@ export default function Portfolio() {
           </a>
         </div>
       </div>
-      <h3 id='skills-title'>Portfolio</h3>
+      <h3 id='skills-title'>Skills</h3>
       <div className='skills'>
         <div className='skill'>
-          <h2>Skill 1</h2>
+          <h2>HTML</h2>
           <div className='progress'>
             <div className='progress-bar' style={{ width: '70%' }}>70%</div>
           </div>
         </div>
         <div className='skill'>
-          <h2>Skill 2</h2>
+          <h2>SQL</h2>
           <div className='progress'>
             <div className='progress-bar' style={{ width: '50%' }}>50%</div>
           </div>
@@ -38,13 +38,13 @@ export default function Portfolio() {
       </div>
       <div className='skills-sec'>
         <div className='skill'>
-          <h2>Skill 1</h2>
+          <h2>ANALYTICAL</h2>
           <div className='progress'>
             <div className='progress-bar' style={{ width: '70%' }}>70%</div>
           </div>
         </div>
         <div className='skill'>
-          <h2>Skill 2</h2>
+          <h2>CSS</h2>
           <div className='progress'>
             <div className='progress-bar' style={{ width: '50%' }}>50%</div>
           </div>

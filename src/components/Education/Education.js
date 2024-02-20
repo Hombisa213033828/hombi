@@ -7,7 +7,7 @@ function Education(){
   return(
     <div className="experience">
       <div className='top-content'>
-      <h3>Education</h3>
+      <h3 id='education-title'>Education</h3>
         <div className='top-cards'>
            <div className='card-1'>
            
