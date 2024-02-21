@@ -7,7 +7,7 @@ import Btech from "./Academics/B-tech certificate.pdf";
 export default function Education() {
   const openBtechCertificate = () => {
     window.open(Btech, '_blank');
-    window.open(BA, '_blank');
+    window.open(SalesPic, '_blank');
 
   };
 
@@ -19,6 +19,8 @@ export default function Education() {
           {/* Your education cards */}
         </div>
       </div>
+
+      
 
       <div className='bottom-content'>
         <h3>Certificates</h3>
@@ -43,7 +45,7 @@ export default function Education() {
             </div>
           </div>
 
-          {/* <div className='Salesforce'>
+          {/* {/* {/* <div className='Salesforce'>
             <div className="cert-card">
               <div className="card-img">
                 <img src={SalesPic} alt='Sales force picture' id='sale-pic' />
@@ -59,7 +61,7 @@ export default function Education() {
                 </div>
               </div>
             </div>
-          </div>   */} 
+          </div>   */}  
           
 
           {/* <div className='Mulesoft'>
