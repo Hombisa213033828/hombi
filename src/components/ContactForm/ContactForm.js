@@ -89,12 +89,12 @@ const getData = async (e) => {
   return (
           
     <div className="container" >
-      <h3 id='portfolio-title'>Portfolio</h3>
-      {/* <div className="info">Portfolio</div> */}
+      <h3 id='portfolio-title'>Contact Us</h3>
+      
      
       <div className="form">
       <form onSubmit={getData}>
-        <label htmlFor="fname">First Name: </label>
+        {/* <label htmlFor="fname">First Name: </label> */}
         <input 
          type="text"
          id="fname"
@@ -148,19 +148,21 @@ const getData = async (e) => {
         id="subject" 
         name="subject" 
         placeholder="Write something.." 
-        style={{ height: '200px' }}
+        style={{ height: '150px' }}
         onChange={handleInputChange}
         required 
 
         />
-
+       
+       
+          <button>
         <input type="submit" value="Submit" />
+
+      </button>
       </form>
       </div>
+      </div>
 
-
-
-    </div>
 
   );
 }

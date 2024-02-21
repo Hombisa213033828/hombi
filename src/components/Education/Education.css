@@ -210,36 +210,35 @@
  /* Add a media query for screens smaller than 768px */
 @media only screen and (max-width: 768px) {
   .experience {
-    height: auto; /* Remove fixed height */
-    padding: 20px; /* Add padding for smaller screens */
+    height: auto;
+    padding: 20px; 
   }
   
   .card {
-    width: 100%; /* Adjust card width to fit smaller screens */
-    margin-bottom: 20px; /* Reduce margin between cards */
+    width: 100%; 
+    margin-bottom: 20px; 
   }
 
   .card-1, .card-2 {
-    width: 100%; /* Adjust card width to fit smaller screens */
-    margin-left: 0; /* Remove left margin */
-    margin-right: 0; /* Remove right margin */
+    width: 100%; 
+    margin-left: 0; 
+    margin-right: 0; 
   }
 
   .certificates {
-    flex-direction: column; /* Stack certificates vertically */
-    align-items: center; /* Center align certificates */
+    flex-direction: column; 
+    align-items: center; 
   }
 
   .sales, .mulesoft, .academics {
-    width: 100%; /* Adjust certificate width to fit smaller screens */
-    margin-bottom: 20px; /* Add space between certificates */
+    width: 100%; 
+    margin-bottom: 20px; 
   }
 
   .card-button {
-    margin-left: auto; /* Align button to the right */
-    margin-right: auto; /* Align button to the right */
-    margin-bottom: 20px; /* Add space between button and cards */
-  }
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 20px; 
 }
 
 /* Add a media query for screens smaller than 480px */
@@ -257,5 +256,6 @@
   }
 }
 
+}
   
  
