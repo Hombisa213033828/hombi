@@ -3,6 +3,7 @@
   height: 100vh;
   background-image: linear-gradient(to bottom, rgba(35, 11, 38, 0.959), rgba(78, 2, 88, 0.78), rgba(63, 16, 70, 0.959), rgba(193, 188, 207, 0.78),rgba(35, 11, 38, 0.959));
   /* margin-bottom: 50rem; */
+  border-radius: 50px;
 }
  .card {
   position: relative;
@@ -205,5 +206,56 @@
   border: 1px solid #ee327a;
   background-color: #ee327a;
  }
+
+ /* Add a media query for screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+  .experience {
+    height: auto; /* Remove fixed height */
+    padding: 20px; /* Add padding for smaller screens */
+  }
+  
+  .card {
+    width: 100%; /* Adjust card width to fit smaller screens */
+    margin-bottom: 20px; /* Reduce margin between cards */
+  }
+
+  .card-1, .card-2 {
+    width: 100%; /* Adjust card width to fit smaller screens */
+    margin-left: 0; /* Remove left margin */
+    margin-right: 0; /* Remove right margin */
+  }
+
+  .certificates {
+    flex-direction: column; /* Stack certificates vertically */
+    align-items: center; /* Center align certificates */
+  }
+
+  .sales, .mulesoft, .academics {
+    width: 100%; /* Adjust certificate width to fit smaller screens */
+    margin-bottom: 20px; /* Add space between certificates */
+  }
+
+  .card-button {
+    margin-left: auto; /* Align button to the right */
+    margin-right: auto; /* Align button to the right */
+    margin-bottom: 20px; /* Add space between button and cards */
+  }
+}
+
+/* Add a media query for screens smaller than 480px */
+@media only screen and (max-width: 480px) {
+  .card__title {
+    font-size: 20px; /* Decrease title font size for smaller screens */
+  }
+
+  .card__description {
+    font-size: 12px; /* Decrease description font size for smaller screens */
+  }
+
+  .card-button button {
+    width: 100%; /* Make button full width */
+  }
+}
+
   
  

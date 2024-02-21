@@ -5,6 +5,52 @@
         width: 100%;
         
 }
+.navbar-header {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav-container ul li {
+    margin-right: 20px;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .menu-icon {
+    color: #fff;
+    cursor: pointer;
+    display: none; /* Hide the icon by default */
+  }
+  
+  /* Add responsive styles */
+  @media only screen and (max-width: 768px) {
+    .nav-container ul {
+      flex-direction: column;
+      align-items: center;
+      display: none; /* Hide the menu items by default */
+    }
+  
+    .nav-container ul.active {
+      display: flex; /* Show the menu items when active */
+    }
+  
+    .menu-icon {
+      display: block; /* Show the icon for toggling the menu */
+      font-size: 24px;
+      margin-right: 20px;
+    }
+  }
+  
 
 .nav-container ul{
     list-style: none;

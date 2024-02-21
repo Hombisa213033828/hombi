@@ -89,12 +89,12 @@ const getData = async (e) => {
   return (
           
     <div className="container" >
-      {/* <h3 id='portfolio-title'>Portfolio</h3> */}
-      <div className="info">Portfolio</div>
+      <h3 id='portfolio-title'>Portfolio</h3>
+      {/* <div className="info">Portfolio</div> */}
      
       <div className="form">
       <form onSubmit={getData}>
-        {/* <label htmlFor="fname">First Name</label> */}
+        <label htmlFor="fname">First Name: </label>
         <input 
          type="text"
          id="fname"
@@ -105,7 +105,7 @@ const getData = async (e) => {
          value={user.firstname}
          />
 
-        {/* <label htmlFor="lname">Last Name</label> */}
+        {/* <label htmlFor="lname">Last Name:</label> */}
         <input 
          type="text"
          id="lname" 
