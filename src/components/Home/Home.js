@@ -14,10 +14,10 @@ export default function Home() {
         </div>
 
         <div className='home-icons'>
-  <a href="https:// hombisa-dyasi-5449b4232" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.linkedin.com/in/hombisa-dyasi-5449b4232/" target="_blank" rel="noopener noreferrer">
     <i id="linkedin" className="fa-brands fa-linkedin"></i>
   </a>
-  <a href="https://www.facebook.com/your-profile" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.facebook.com/hombisa.mdubeki?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
     <i id="facebook" className="fa-brands fa-square-facebook"></i>
   </a>
   <a href="https://www.github.com/your-profile" target="_blank" rel="noopener noreferrer">
