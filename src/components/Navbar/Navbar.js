@@ -13,11 +13,10 @@ export default function Navbar() {
     <div className='navbar-header'>
       <div className={`nav-container ${isOpen ? 'active' : ''}`}>
         <ul className={isOpen ? 'active' : ''}>
-          <li>HOME</li>
-          <li>ABOUT ME</li>
-          <li>EDUCATION</li>
-          <li>PORTFOLIO</li>
-          <li>CONTACT</li>
+          <li>Home</li>
+          <li>Education</li>
+          <li>Portfolio</li>
+          <li>ContactForm</li>
         </ul>
       </div>
       <div className='menu-icon' onClick={toggleMenu}>

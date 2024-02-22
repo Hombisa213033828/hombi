@@ -57,6 +57,36 @@ const getData = async (e) => {
 
   const { firstname, lastname, EmailAdress, subject} = user;
 
+  <div className="container mx-0">
+                  <div className="flex flex-col">
+                    <div className="flex items-center mb-4">
+                      <i className="fas fa-envelope mr-2"></i>
+                      <div>
+                        <img src="message.png" alt="" className="w-8 h-8 mr-2" />
+                        <h3 className="text-lg font-semibold text-white">my email</h3> {/* Add text-white class */}
+                        <p className="text-gray-600">hombisadyasi@gmail.com</p>
+                      </div>
+                    </div>
+                    <div className="flex items-center mb-4">
+                      <i className="fas fa-phone mr-2"></i>
+                      <div>
+                        <img src="phone.png" alt="" className="w-8 h-8 mr-2" />
+                        <h3 className="text-lg font-semibold text-white">my number</h3> {/* Add text-white class */}
+                        <p className="text-gray-600">+27 73 493 7608</p>
+                      </div>
+                    </div>
+                    <div className="flex items-center">
+                      <i className="fas fa-map-marker-alt mr-2"></i>
+                      <div>
+                        <img src="location.png" alt="" className="w-8 h-8 mr-2" />
+                        <h3 className="text-lg font-semibold text-white">my address</h3> {/* Add text-white class */}
+                        <p className="text-gray-600">1941 Bhele Street, Daveyton 1520</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
         try {
             await emailjs.sendForm('service_lcs9ke8', 'template_woet0oj', e.target, 'GhRbTxPVrmNLCLs-D');
             console.log("Email sent successfully");

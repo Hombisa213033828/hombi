@@ -1,10 +1,11 @@
 import React from 'react';
 import'./Education.css';
 import SalesPic from './images/sales-logo.png';
-// import Diploma from "./Academics/Diploma.pdf";
+import MulePic from "./images/gb.jpg";
+import Diploma from "./Academics/Diploma.pdf";
 import Btech from "./Academics/B-tech.pdf";
-import BA from "./Academics/BA.pdf";
-import SA from "./Academics/ SA.pdf";
+// import BA from "./Academics/BA.pdf";
+// import SA from "./Academics/SA.pdf";
 
 // import Banking from "./Academics.Banking.png";
 
@@ -70,7 +71,7 @@ function Education(){
 
             <div class="cert-card">
                 <div class="card-img">
-                  <img src={SalesPic} alt='Sales force picture' id='sale-pic' />
+                  <img src={MulePic} alt='Sales force picture' id='mule-pic' />
                 </div>
                 <div class="card-info">
                 <p class="text-title">Mulesoft</p>
@@ -78,9 +79,9 @@ function Education(){
                 </div>
                 <div class="card-footer">
                 
-                <div class="card-button">
+                {/* <div class="card-button">
                 <button><a href={BA}>View Certificates</a></button>
-                 </div>
+                 </div> */}
                 </div>
             </div>
 
@@ -98,7 +99,7 @@ function Education(){
                 <div class="card-footer">
                 
                 <div class="card-button">
-                <button><a href={SA}>View Certificates</a></button>
+                <button><a href={Diploma}>View Certificates</a></button>
                  </div>
                 </div>
             </div>
