@@ -1,90 +1,112 @@
 import React from 'react';
-import './Education.css';
+import'./Education.css';
 import SalesPic from './images/sales-logo.png';
-import Btech from "./Academics/B-tech certificate.pdf";
-// import BA from "./Saleforce/BusinessAnalyst.pdf";
+// import Diploma from "./Academics/Diploma.pdf";
+import Btech from "./Academics/B-tech.pdf";
+import BA from "./Academics/BA.pdf";
+import SA from "./Academics/ SA.pdf";
 
-export default function Education() {
-  const openBtechCertificate = () => {
-    window.open(Btech, '_blank');
-    window.open(SalesPic, '_blank');
+// import Banking from "./Academics.Banking.png";
 
-  };
-
-  return (
+function Education(){
+  return(
     <div className="experience">
       <div className='top-content'>
-        <h3 id='education-title'>Education</h3>
+      <h3 id='education-title'>Education</h3>
         <div className='top-cards'>
-          {/* Your education cards */}
+           <div className='card-1'>
+           
+           <div className="card">
+        <img src="Wsu2.png" height={"100"}/>
+        <div className="card__content">
+          <p className="card__title">Walter Sisulu</p>
+          <p> Year Completed: 2013/01</p>
+          <p> year Completed: 2016/12</p>
+          <p> Course: N.Diploma in Business Analysis</p>
+          </div>
+         </div>
+           
+            </div>
+           <div className='card-2'>
+           
+           <div className="card">
+        <img src="cput.png" height={"100"}/>
+        <div className="card__content">
+          <p className="card__title">Cape Peninsula</p>
+       
+          <p> Year Enrolled: 2019/01</p>
+          <p> year Completed: 2019/12</p>
+          <p> Course: B-Tech Information and Technology Management </p>
+          </div>
+        </div> 
+           
+           </div>
         </div>
       </div>
 
-      
-
       <div className='bottom-content'>
         <h3>Certificates</h3>
-        <div className='certificates'>
-          {/* Your other certificate cards */}
+          <div className='certificates'>
+            <div className='sales'>
 
-          {/* B-Tech Certificate Card */}
-          <div className='academics'>
-            <div className="cert-card">
-              <div className="card-img">
-                <img src={SalesPic} alt='Sales force picture' id='sale-pic' />
-              </div>
-              <div className="card-info">
-                <p className="text-title">B-Tech Certificate</p>
-                <p className="text-body">Diploma, B-Tech</p>
-              </div>
-              <div className="card-footer">
-                <div className="card-button">
-                  <button onClick={openBtechCertificate}>View Certificate</button>
+            <div class="cert-card">
+                <div class="card-img">
+                  <img src={SalesPic} alt='Sales force picture' id='sale-pic' />
                 </div>
-              </div>
+                <div class="card-info">
+                <p class="text-title">Saleforce </p>
+                <p class="text-body">Admin, BA, Servicde cloud</p>
+                </div>
+                <div class="card-footer">
+                
+                <div class="card-button">
+                  <button><a href={Btech}>View Certificates</a></button>
+                 </div>
+                </div>
+            </div>
+
+            </div>
+            <div className='Mulesoft'>
+
+            <div class="cert-card">
+                <div class="card-img">
+                  <img src={SalesPic} alt='Sales force picture' id='sale-pic' />
+                </div>
+                <div class="card-info">
+                <p class="text-title">Mulesoft</p>
+                <p class="text-body">Mulesoft</p>
+                </div>
+                <div class="card-footer">
+                
+                <div class="card-button">
+                <button><a href={BA}>View Certificates</a></button>
+                 </div>
+                </div>
+            </div>
+
+            </div>
+            <div className='academics'>
+
+            <div class="cert-card">
+                <div class="card-img">
+                  <img src={SalesPic} alt='Sales force picture' id='sale-pic' />
+                </div>
+                <div class="card-info">
+                <p class="text-title">Academics</p>
+                <p class="text-body">Diploma, B-Tech</p>
+                </div>
+                <div class="card-footer">
+                
+                <div class="card-button">
+                <button><a href={SA}>View Certificates</a></button>
+                 </div>
+                </div>
+            </div>
+            
             </div>
           </div>
-
-          {/* {/* {/* <div className='Salesforce'>
-            <div className="cert-card">
-              <div className="card-img">
-                <img src={SalesPic} alt='Sales force picture' id='sale-pic' />
-              </div>
-              <div className="card-info">
-                <p className="text-title">Salesforce</p>
-                <p className="text-body">Business Analyst</p>
-                {/* <p className="text-body">Service Cloud</p> */}
-              {/* </div>
-              <div className="card-footer">
-                <div className="card-button">
-                  <button onClick={openBusinessAnalyst}>View Certificate</button>
-                </div>
-              </div>
-            </div>
-          </div>   */}  
-          
-
-          {/* <div className='Mulesoft'>
-            <div className="cert-card">
-              <div className="card-img">
-                <img src={SalesPic} alt='Sales force picture' id='sale-pic' />
-              </div>
-              <div className="card-info">
-                <p className="text-title">Mulesoft</p>
-                <p className="text-body">Business Analyst</p>
-                {/* <p className="text-body">Service Cloud</p> */}
-              {/* </div>
-              <div className="card-footer">
-                <div className="card-button">
-                  <button onClick={openBusinessAnalyst}>View Certificate</button>
-                </div>
-              </div>
-            </div>
-          </div>   */}
-           
-       </div>
       </div>
     </div>
-   
-  );
+  )
 }
+export default Education;
