@@ -140,10 +140,11 @@ color: #0077b5; /* LinkedIn blue */
 
 .hero-right {
     margin-left: 70px;
-    height: 700px;
-    width: 900px;
+    height: 600px;
+    width: 700px;
     background-image: linear-gradient(to bottom, rgba(35, 11, 38, 0.959), rgba(35, 11, 38, 0.959), rgba(193, 188, 207, 0.78),rgba(35, 11, 38, 0.959));
-    border-radius: 50px;
+    /* border-radius: 50px; */
+    margin-left: 3px;
 }
 
 .my-image {
@@ -253,18 +254,22 @@ color: #0077b5; /* LinkedIn blue */
 
 @media (max-width: 768px) {
     .hero-right {
-        width: 100%;
+        width: 80%;
     }
 
     .home-button button,
     .home-resume-button button {
-        width: 120px;
+        width: 150px;
     }
 }
 
 @media (max-width: 480px) {
     .hero-left,
     .hero-right {
+        width: 100%;
+    }
+    #education {
+        height: fit-content;
         width: 100%;
     }
 }
