@@ -1,10 +1,10 @@
 import React from 'react';
 import'./Education.css';
 import SalesPic from './images/sales-logo.png';
-import MulePic from "./images/gb.jpg";
+import MulePic from "./images/Mule.logo.jpg";
 import Diploma from "./Academics/Diploma.pdf";
 import Btech from "./Academics/B-tech.pdf";
-// import BA from "./Academics/BA.pdf";
+import BA from "./Academics/BA.pdf";
 // import SA from "./Academics/SA.pdf";
 
 // import Banking from "./Academics.Banking.png";
@@ -46,7 +46,7 @@ function Education(){
       </div>
 
       <div className='bottom-content'>
-        <h3>Certificates</h3>
+      <h3 id='certificates-title'>Certificates</h3>
           <div className='certificates'>
             <div className='sales'>
 
@@ -79,9 +79,9 @@ function Education(){
                 </div>
                 <div class="card-footer">
                 
-                {/* <div class="card-button">
+                <div class="card-button">
                 <button><a href={BA}>View Certificates</a></button>
-                 </div> */}
+                 </div>
                 </div>
             </div>
 

@@ -57,36 +57,6 @@ const getData = async (e) => {
 
   const { firstname, lastname, EmailAdress, subject} = user;
 
-  <div className="container mx-0">
-                  <div className="flex flex-col">
-                    <div className="flex items-center mb-4">
-                      <i className="fas fa-envelope mr-2"></i>
-                      <div>
-                        <img src="message.png" alt="" className="w-8 h-8 mr-2" />
-                        <h3 className="text-lg font-semibold text-white">my email</h3> {/* Add text-white class */}
-                        <p className="text-gray-600">hombisadyasi@gmail.com</p>
-                      </div>
-                    </div>
-                    <div className="flex items-center mb-4">
-                      <i className="fas fa-phone mr-2"></i>
-                      <div>
-                        <img src="phone.png" alt="" className="w-8 h-8 mr-2" />
-                        <h3 className="text-lg font-semibold text-white">my number</h3> {/* Add text-white class */}
-                        <p className="text-gray-600">+27 73 493 7608</p>
-                      </div>
-                    </div>
-                    <div className="flex items-center">
-                      <i className="fas fa-map-marker-alt mr-2"></i>
-                      <div>
-                        <img src="location.png" alt="" className="w-8 h-8 mr-2" />
-                        <h3 className="text-lg font-semibold text-white">my address</h3> {/* Add text-white class */}
-                        <p className="text-gray-600">1941 Bhele Street, Daveyton 1520</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
         try {
             await emailjs.sendForm('service_lcs9ke8', 'template_woet0oj', e.target, 'GhRbTxPVrmNLCLs-D');
             console.log("Email sent successfully");
@@ -119,8 +89,39 @@ const getData = async (e) => {
   return (
           
     <div className="container" >
-      <h3 id='portfolio-title'>Contact Us</h3>
-      
+      <div className="contact_title">
+      <h3>Contact Us</h3>
+      </div>
+     
+
+      <div className="contact-info">
+                  <div className="flex flex-col">
+                    <div className="flex items-center mb-4">
+                      <i className="fas fa-envelope mr-2"></i>
+                      <div>
+                        <img src="message.png" alt="" className="w-8 h-8 mr-2" />
+                        <h3 className="text-lg font-semibold text-white">My Email</h3> {/* Add text-white class */}
+                        <p className="text-gray-600">hombisadyasi@gmail.com</p>
+                      </div>
+                    </div>
+                    <div className="flex items-center mb-4">
+                      <i className="fas fa-phone mr-2"></i>
+                      <div>
+                        <img src="phone.png" alt="" className="w-8 h-8 mr-2" />
+                        <h3 className="text-lg font-semibold text-white">My Number</h3> {/* Add text-white class */}
+                        <p className="text-gray-600">+27 21 234 2341</p>
+                      </div>
+                    </div>
+                    <div className="flex items-center">
+                      <i className="fas fa-map-marker-alt mr-2"></i>
+                      <div>
+                        <img src="location.png" alt="" className="w-8 h-8 mr-2" />
+                        <h3 className="text-lg font-semibold text-white">My Address</h3> {/* Add text-white class */}
+                        <p className="text-gray-600">South Africa, Western Cape,7493</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
      
       <div className="form">
       <form onSubmit={getData}>
@@ -165,9 +166,12 @@ const getData = async (e) => {
           <option value="australia">Australia</option>
           <option value="canada">Canada</option>
           <option value="usa">USA</option>
-          <option value="usa"></option>
-          <option value="usa">USA</option>
-          <option value="usa">USA</option>
+          <option value="usa">South Africa</option>
+          <option value="usa">Zimbabwe</option>
+          <option value="usa">Botswana</option>
+          <option value="usa">Nigeria</option>
+          <option value="usa">Congo</option>
+          <option value="usa">Lesotho</option>
 
           
 

@@ -3,7 +3,8 @@
   height: 100vh;
   background-image: linear-gradient(to bottom, rgba(35, 11, 38, 0.959), rgba(78, 2, 88, 0.78), rgba(63, 16, 70, 0.959), rgba(193, 188, 207, 0.78),rgba(35, 11, 38, 0.959));
   /* margin-bottom: 50rem; */
-  border-radius: 50px;
+  /* border-radius: 50px; */
+  padding-bottom: 30px;
 }
  .card {
   position: relative;
@@ -18,6 +19,17 @@
   perspective: 1000px;
   box-shadow: 0 0 0 5px #ffffff80;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+#education-title {
+  padding: 50px;
+  font-size: 50px;
+  color: aliceblue;
+}
+#certificates-title {
+  padding: 20px;
+  font-size: 50px;
+  color: aliceblue;
+  margin-top: -100px;
 }
 
 .card svg {
