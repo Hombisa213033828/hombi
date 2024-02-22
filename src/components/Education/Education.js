@@ -11,7 +11,8 @@ import BA from "./Academics/BA.pdf";
 
 function Education(){
   return(
-    <div className="experience">
+    <section id="Education">
+      <div className="experience">
       <div className='top-content'>
       <h3 id='education-title'>Education</h3>
         <div className='top-cards'>
@@ -108,6 +109,7 @@ function Education(){
           </div>
       </div>
     </div>
+    </section>
   )
 }
 export default Education;

@@ -5,6 +5,8 @@ import GadgetImg from './images/gb.jpg';
 
 export default function Portfolio() {
   return (
+    <section id="portfolio">
+
     <div className='portfolio-page'>
       <h3 id='portfolio-title'>Portfolio</h3>
       <div className='portfolio-container'>
@@ -51,5 +53,6 @@ export default function Portfolio() {
         </div>
       </div>
     </div>
+    </section>
   );
 }

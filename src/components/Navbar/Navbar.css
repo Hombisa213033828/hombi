@@ -1,75 +1,63 @@
-
 .navbar-header {
-        margin: 0;
-        align-items: center;
-        width: 100%;
-        
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.navbar-header {
-    background-color: #333;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(-100%);
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+ul li {
+  padding: 10px;
+  font-size: large;
+  margin-right: -20rem;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-header {
     align-items: center;
   }
-  
+
+  .menu-icon {
+    display: none;
+  }
+
+  .nav-container {
+    position: relative;
+    top: initial;
+    left: initial;
+    width: auto;
+    background-color: transparent;
+    transform: translateY(0);
+  }
+
   .nav-container ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+    flex-direction: row;
   }
   
   .nav-container ul li {
-    margin-right: 20px;
-    color: #fff;
-    font-size: 18px;
+    margin: 0 15px;
   }
-  
-  .menu-icon {
-    color: #fff;
-    cursor: pointer;
-    display: none; /* Hide the icon by default */
-  }
-  
-  /* Add responsive styles */
-  @media only screen and (max-width: 768px) {
-    .nav-container ul {
-      flex-direction: column;
-      align-items: center;
-      display: none; /* Hide the menu items by default */
-    }
-  
-    .nav-container ul.active {
-      display: flex; /* Show the menu items when active */
-    }
-  
-    .menu-icon {
-      display: block; /* Show the icon for toggling the menu */
-      font-size: 24px;
-      margin-right: 20px;
-    }
-  }
-  
-
-.nav-container ul{
-    list-style: none;
-    display: flex;
-    margin-left: 550px;
-    text-decoration: none;
-    font-weight: bold; /* Set font weight as needed */
-    font-size: 16px;
-   
-}
-
-.nav-container ul li{
-    padding: 10px;
-    font-family: "Inika", Helvetica;
-    text-decoration: none;
-    color: black;
-    margin-top: 50px;
-}
-
-.nav-container ul li:hover {
-    color: rgb(201, 40, 134);
 }

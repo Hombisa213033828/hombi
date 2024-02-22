@@ -4,6 +4,7 @@
     align-items: flex-start;
     height: 100vh;
     display: flex;
+    margin-bottom: 20px;
     
 }
 
@@ -11,7 +12,7 @@
 .hero-left {
    
     height: 700px;
-    width: 400px;
+    width: 500px;
 }
 
 .hero-right {
@@ -21,6 +22,8 @@
     width: 900px;
     background-image: rgba(35, 11, 38, 0.959), ;
     border-radius: 50px;
+   
+
 }
 
 .my-image {
@@ -164,7 +167,7 @@ color: #0077b5; /* LinkedIn blue */
     font-size: 24px;
 }
       
-#linkedi: {
+#linkedi {
     color: #0077b5; /* LinkedIn blue */
 }
       

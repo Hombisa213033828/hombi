@@ -5,6 +5,9 @@ import myCV from './CV/CV.jpg';
 
 export default function Home() {
   return (
+
+<section id='home'>
+
     <div className='home-page'>
       <div className='hero-left'>
         <img src={myImage} alt='My Image' className='my-image' />
@@ -50,5 +53,6 @@ export default function Home() {
         </p>
       </div>
     </div>
+</section>  
   );
 }

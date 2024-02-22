@@ -87,7 +87,8 @@ const getData = async (e) => {
 
 
   return (
-          
+     <section id="ContactForm">
+
     <div className="container" >
       <div className="contact_title">
       <h3>Contact Us</h3>
@@ -196,6 +197,7 @@ const getData = async (e) => {
       </form>
       </div>
       </div>
+     </section>     
 
 
   );
