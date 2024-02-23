@@ -18,8 +18,8 @@
 .hero-right {
 
     margin-left: 70px;
-    height: 700px;
-    width: 900px;
+    height: 800px;
+    width: 1000px;
     background-image: rgba(35, 11, 38, 0.959), ;
     border-radius: 50px;
    
@@ -240,6 +240,8 @@ color: #0077b5; /* LinkedIn blue */
 
     .hero-right {
         width: 80%;
+        /* margin-left: 100px;
+        float: right; */
     }
 
     .home-button button,

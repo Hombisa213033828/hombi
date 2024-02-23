@@ -47,7 +47,7 @@ input[type=submit]:hover {
 }
 
 .container {
-  border-radius: 10px;
+  /* border-radius: 10px; */
   background-color:#29012e;
   padding: 100px;
   margin-top:10px;

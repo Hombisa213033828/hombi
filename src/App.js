@@ -5,7 +5,7 @@ import Home from './components/Home/Home';
 import Education from './components/Education/Education';
 import Portfolio from './components/Portfolio/Portfolio';
 import ContactForm from './components/ContactForm/ContactForm';
-
+// import Inika-Regular from'./fonts/Inika-Regular.ttf';
 
 
 
@@ -18,6 +18,7 @@ function App() {
       <Education/>
       <Portfolio/> 
       <ContactForm/>
+     
     </div>
   );
 }

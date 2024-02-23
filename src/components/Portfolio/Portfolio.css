@@ -1,8 +1,8 @@
 .portfolio-page {
     margin: 0;
-    padding-top: 0;
+    /* padding-top: 9px; */
     background-color: #29012e;
-    /* border-radius: 0px; */
+    
   }
   
   .portfolio-container {
@@ -10,6 +10,7 @@
     height: 100vh;
     justify-content: space-between;
     gap: 80px;
+    
   }
   
   .left-box,

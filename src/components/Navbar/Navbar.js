@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import './Navbar.css';
 
+
+
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
